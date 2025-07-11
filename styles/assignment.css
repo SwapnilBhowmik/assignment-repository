@@ -136,3 +136,86 @@ nav ul li{
     padding: 50px 140px 50px 140px;
     margin: 85px 160px 0 150px;
 }
+.card-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.card-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.card{
+    padding: 24px 24px;
+    border-radius: 15px;
+    border: 2px solid #F2EDED ;
+    
+}
+.card-section{
+    margin: 135px 150px 0 150px;
+}
+div p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.opt{
+    border-radius: 48px;
+    width: 840px;
+    align-self: center;
+    padding-top: 20px;
+}
+.optional{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #FFFFFF;
+}
+.opt-title{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.opt-sub{
+    padding-bottom: 20px;
+}
+.opt-btn{
+    padding-bottom: 20px;
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 130px 170px;
+
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+.contact-form label{
+font-size: 18px;
+font-weight: 500;
+color: #000000;
+}
+.contact-form input,.contact-form textarea{
+    padding: 10px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size: 14px;
+
+
+}
+.form-title{
+ 
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+}
